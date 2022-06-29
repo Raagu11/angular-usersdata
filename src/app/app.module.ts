@@ -7,9 +7,10 @@ import { HelloComponent } from './hello.component';
 import { UserAppComponent } from './user-app/user-app.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { UserCardComponent } from './user-card/user-card.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, HttpClientModule],
   declarations: [
     AppComponent,
     HelloComponent,
